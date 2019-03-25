@@ -10,6 +10,7 @@
 		791BBF8D224041D5004C9F45 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BBF8C224041D5004C9F45 /* AdjacencyList.swift */; };
 		791BBF8F22405041004C9F45 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BBF8E22405041004C9F45 /* DFS.swift */; };
 		791BBF912240504D004C9F45 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BBF902240504D004C9F45 /* BFS.swift */; };
+		7959B8922248AC37001162C7 /* FloodFillExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7959B8912248AC37001162C7 /* FloodFillExercises.swift */; };
 		799905C52231E29B00BBB818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799905C42231E29B00BBB818 /* main.swift */; };
 		799905CC2231E2DB00BBB818 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799905CB2231E2DB00BBB818 /* Search.swift */; };
 		799EA1992240567E00A1458D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799EA1982240567E00A1458D /* Queue.swift */; };
@@ -25,6 +26,9 @@
 		79BF24AE2242B2DE0043057C /* CycleGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF24AD2242B2DE0043057C /* CycleGraph.swift */; };
 		79BF24B02242F9710043057C /* Flood Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF24AF2242F9710043057C /* Flood Fill.swift */; };
 		79BF24B2224448CE0043057C /* AStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF24B1224448CE0043057C /* AStar.swift */; };
+		79BF24B5224583430043057C /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF24B4224583430043057C /* Node.swift */; };
+		79BF24B722459EEF0043057C /* NodeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF24B622459EEF0043057C /* NodeString.swift */; };
+		79BF24B92245A9850043057C /* TreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF24B82245A9850043057C /* TreeTraversal.swift */; };
 		79C833DA22331C1400B4EE54 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C833D922331C1400B4EE54 /* Recursion.swift */; };
 		79C8341B2236FF7900B4EE54 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C8341A2236FF7900B4EE54 /* String+DPStringTool.swift */; };
 		79C8341D2237014A00B4EE54 /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C8341C2237014A00B4EE54 /* ExhaustiveSearch.swift */; };
@@ -46,6 +50,7 @@
 		791BBF8C224041D5004C9F45 /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
 		791BBF8E22405041004C9F45 /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		791BBF902240504D004C9F45 /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		7959B8912248AC37001162C7 /* FloodFillExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFillExercises.swift; sourceTree = "<group>"; };
 		799905C12231E29A00BBB818 /* SwiftAGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAGDS; sourceTree = BUILT_PRODUCTS_DIR; };
 		799905C42231E29B00BBB818 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		799905CB2231E2DB00BBB818 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
@@ -62,6 +67,9 @@
 		79BF24AD2242B2DE0043057C /* CycleGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleGraph.swift; sourceTree = "<group>"; };
 		79BF24AF2242F9710043057C /* Flood Fill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flood Fill.swift"; sourceTree = "<group>"; };
 		79BF24B1224448CE0043057C /* AStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AStar.swift; sourceTree = "<group>"; };
+		79BF24B4224583430043057C /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		79BF24B622459EEF0043057C /* NodeString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeString.swift; sourceTree = "<group>"; };
+		79BF24B82245A9850043057C /* TreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTraversal.swift; sourceTree = "<group>"; };
 		79C833D922331C1400B4EE54 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
 		79C833DB223336C300B4EE54 /* file.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.txt; sourceTree = "<group>"; };
 		79C8341A2236FF7900B4EE54 /* String+DPStringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
@@ -98,6 +106,7 @@
 		799905C32231E29A00BBB818 /* SwiftAGDS */ = {
 			isa = PBXGroup;
 			children = (
+				79BF24B322457A230043057C /* Tree */,
 				799905C42231E29B00BBB818 /* main.swift */,
 				79A1651222403CD200F874CB /* Graph */,
 				799905CB2231E2DB00BBB818 /* Search.swift */,
@@ -144,8 +153,19 @@
 				79BF24AB22418DB00043057C /* BipartiteGraph.swift */,
 				79BF24AD2242B2DE0043057C /* CycleGraph.swift */,
 				79BF24AF2242F9710043057C /* Flood Fill.swift */,
+				7959B8912248AC37001162C7 /* FloodFillExercises.swift */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		79BF24B322457A230043057C /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				79BF24B4224583430043057C /* Node.swift */,
+				79BF24B622459EEF0043057C /* NodeString.swift */,
+				79BF24B82245A9850043057C /* TreeTraversal.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,15 +225,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7959B8922248AC37001162C7 /* FloodFillExercises.swift in Sources */,
 				79BF24B2224448CE0043057C /* AStar.swift in Sources */,
 				79B9B461223AFA02002C4CFA /* BackTracking.swift in Sources */,
 				799EA19C2240A64C00A1458D /* Lotto.swift in Sources */,
+				79BF24B5224583430043057C /* Node.swift in Sources */,
 				79C833DA22331C1400B4EE54 /* Recursion.swift in Sources */,
 				79B9B45F2238509A002C4CFA /* SortingAlgorithms.swift in Sources */,
 				791BBF8D224041D5004C9F45 /* AdjacencyList.swift in Sources */,
 				799905CC2231E2DB00BBB818 /* Search.swift in Sources */,
 				79BF24AE2242B2DE0043057C /* CycleGraph.swift in Sources */,
 				799905C52231E29B00BBB818 /* main.swift in Sources */,
+				79BF24B92245A9850043057C /* TreeTraversal.swift in Sources */,
 				79C8341D2237014A00B4EE54 /* ExhaustiveSearch.swift in Sources */,
 				799EA1992240567E00A1458D /* Queue.swift in Sources */,
 				79BF24AA2241880C0043057C /* ConnectedComponents.swift in Sources */,
@@ -221,6 +244,7 @@
 				79A1651422403D0300F874CB /* AdjacencyMatrix.swift in Sources */,
 				799EA1A02240AD6300A1458D /* Remote.swift in Sources */,
 				79BF24B02242F9710043057C /* Flood Fill.swift in Sources */,
+				79BF24B722459EEF0043057C /* NodeString.swift in Sources */,
 				79BF24AC22418DB00043057C /* BipartiteGraph.swift in Sources */,
 				799EA19E2240ACB600A1458D /* LottoByDerrick.swift in Sources */,
 				791BBF8F22405041004C9F45 /* DFS.swift in Sources */,

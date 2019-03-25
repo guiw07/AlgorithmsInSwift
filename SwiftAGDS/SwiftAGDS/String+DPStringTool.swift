@@ -35,3 +35,9 @@ extension String {
         return CharacterSet.decimalDigits.isSuperset(of: CharacterSet(charactersIn: self))
     }
 }
+
+extension Character {
+    var ascii: Int {
+        return Int(self.unicodeScalars.first!.value)
+    }
+}

@@ -86,7 +86,7 @@ var arr_to_pivot = [3,5,1,2,8,10,7,3,1]
 
 //lottery()
 
-print("A")
+print("NOT CRASH XCODE")
 
 //StoreInAdjacencyListConnectedComponents()
 
@@ -105,4 +105,74 @@ print("A")
 
 //floodFillIslands()
 
-ShortestPathMaze()
+//ShortestPathMaze()
+
+
+var myTree = BinaryTree()
+//
+//myTree.add(value: 5)
+//myTree.add(value: 7)
+//myTree.add(value: 1)
+//myTree.add(value: 3)
+//myTree.add(value: 4)
+//myTree.add(value: 6)
+//myTree.add(value: 9)
+//myTree.add(value: 10)
+//
+//
+//myTree.traverseInOrder(currentNode: myTree.root)
+//
+//
+//myTree.traversePreOrder(currentNode: myTree.root)
+//
+//myTree.traversePostOrder(currentNode: myTree.root)
+
+
+//print(myTree.root!.value)
+//    print(myTree.root!.left!.value)
+//        print(myTree.root!.left!.right!.value)
+//            print(myTree.root!.left!.right!.right!.value)
+//
+//
+//    print(myTree.root!.right!.value)
+//        print(myTree.root!.right!.left!.value)
+//        print(myTree.root!.right!.right!.value)
+//            print(myTree.root!.right!.right!.right!.value)
+//
+//
+
+
+//var myStringTree = BinaryTreeString()
+
+//myStringTree.add(value: "A")
+//myStringTree.add(value: "B")
+//myStringTree.add(value: "D")
+//myStringTree.add(value: "C")
+//myStringTree.add(value: "E")
+//myStringTree.add(value: "F")
+//myStringTree.add(value: "G")
+
+//print(myStringTree.root!.right!.value)
+
+//var wow = myStringTree.getNode(currentNode: myStringTree.root, "G")
+//
+//print(wow!.value)
+
+/*
+
+A B C
+B D .
+C E F
+E . .
+F . G
+D . .
+G . .
+
+
+ 
+ 
+ */
+
+//TomatoFarm()
+
+BuildShortestBridge()

@@ -255,3 +255,6 @@ func ShortestPathMaze() {
     }
     print(grid[height-1][width-1])
 }
+
+
+
