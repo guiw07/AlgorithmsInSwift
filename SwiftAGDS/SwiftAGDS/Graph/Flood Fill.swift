@@ -216,10 +216,7 @@ func dfsMatrixFloodFillWithDiagonals(_ matrix: inout [[Int]], _ ipos: Int, _ jpo
 
 
 
-struct Pair {
-    let x: Int
-    let y: Int
-}
+
 
 
 func ShortestPathMaze() {

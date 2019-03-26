@@ -65,6 +65,7 @@ func TomatoFarm(){
     var check = [[Bool]](repeating: [Bool](repeating: false, count: cols), count: rows)
     while !availableNodes(&matrix) {
         var newArrayOfNodes = Array<Pair>()
+        
         for tuple in arrayOfNodes{
             for i in 0..<4 {
                 // generate the adjacents
@@ -115,6 +116,7 @@ struct PairValued {
 }
 
 
+// first flooding all the islands, than calculating the distance from all the points from each island to the other islands
 func BuildShortestBridge(){
     
     let n = Int(readLine()!)!
