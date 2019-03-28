@@ -9,6 +9,20 @@
 import Foundation
 
 
+
+// This DFS prints with sucess the nodes of a weightned tree, even graph
+func dfsWithWeightedEdges(start: Int, check: inout [Bool], adjList: inout [[(Int,Int)]]) {
+    check[start] = true
+    print(start)
+    for next in adjList[start] {
+        if check[next.0] == false {
+            dfsWithWeightedEdges(start: next.0, check: &check, adjList: &adjList)
+        }
+    }
+}
+
+
+
 func dfs(start: Int, check: inout [Bool], adjList: inout [[Int]]) {
     check[start] = true
     print(start)

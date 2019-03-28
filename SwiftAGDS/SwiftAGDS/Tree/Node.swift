@@ -6,6 +6,8 @@
 //  Copyright © 2019 Guilherme Wahlbrink. All rights reserved.
 //
 
+
+
 import Foundation
 
 
@@ -27,6 +29,7 @@ class BinaryTree {
     func add(value: Int){
         root = addRecursive(currentNode: self.root, value: value)
     }
+    
     
     func addRecursive(currentNode: Node?, value: Int) -> Node {
         guard let currentNode = currentNode else { return Node.init(value, nil, nil) }
@@ -63,7 +66,5 @@ class BinaryTree {
         traversePostOrder(currentNode: currentNode.right)
         print(currentNode.value)
     }
-    
-    
     
 }

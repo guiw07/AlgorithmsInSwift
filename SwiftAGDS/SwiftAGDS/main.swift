@@ -108,7 +108,7 @@ print("NOT CRASH XCODE")
 //ShortestPathMaze()
 
 
-var myTree = BinaryTree()
+//var myTree = BinaryTree()
 //
 //myTree.add(value: 5)
 //myTree.add(value: 7)
@@ -175,4 +175,40 @@ G . .
 
 //TomatoFarm()
 
-BuildShortestBridge()
+//BuildShortestBridge()
+
+
+var myTree2 = Tree()
+
+
+//myTree2.add(value: 1)
+//
+//
+//myTree2.add(value: 6, parentValue: 1)
+//myTree2.add(value: 3, parentValue: 6)
+//myTree2.add(value: 5, parentValue: 3)
+//myTree2.add(value: 4, parentValue: 1)
+//myTree2.add(value: 2, parentValue: 4)
+//myTree2.add(value: 7, parentValue: 4)
+//
+//
+////print(myTree2.getNode(currentNode: myTree2.root, 2)!.value)
+//
+//print(myTree2.getParent(4)!.value)
+//print(myTree2.getParent(6)!.value)
+//
+//
+//print(myTree2.getParent(3)!.value)
+//
+//print(myTree2.getParent(2)!.value)
+//print(myTree2.getParent(7)!.value)
+
+//print(myTree2.getParent(9)!.value)
+
+
+//listAllParentsOfNodes()
+
+//AdjacencyListWeightedForTree()
+
+
+LowestCommonAncestor()
