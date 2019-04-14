@@ -62,3 +62,9 @@ func LowestCommonAncestor(){
         myTree.getListOfAncestorsBetter(n1, n2, &list1)
     }
 }
+
+func LCAUsingDynamicPrograming(){
+    
+}
+
+

@@ -211,4 +211,57 @@ var myTree2 = Tree()
 //AdjacencyListWeightedForTree()
 
 
-LowestCommonAncestor()
+//LowestCommonAncestor()
+
+
+//DijkstraExercise()
+
+
+//print(climStairs(10))
+//
+//
+//print(countPossibleTilesPlacement(10))
+//
+//
+//print(countPossibleTilesPlacement2(10))
+//
+//
+//print(oneTwoThree(10))
+//
+//
+//print(minOperationstoMakeOne(10))
+//
+//
+//print(prettyNumber(3))
+
+var a = [0,1,0,3,12]
+moveZeroes(&a)
+
+//print(a)
+
+
+//print(reverseInteger(-1234))
+
+
+//print(selfDividingNumbers(1,22))
+
+
+//print(findTheDifference2("abcd","abcde"))
+
+//var b = [4,3,2,7,8,2,3,1]
+//print(findDisappearedNumbers(b))
+
+
+print(orangesRotting([[0,0,1,2],[2,0,1,1]]))
+
+
+//print(isBipartite2([[]]))
+
+
+//print(addDigits(38))
+
+
+//print(reverseVowels("a A"))
+
+
+//print(findWords(["Hello", "Alaska", "Dad", "Peace"]))
